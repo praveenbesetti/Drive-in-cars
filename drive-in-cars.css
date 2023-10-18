@@ -1,0 +1,553 @@
+
+        div{
+            float:left;
+        }
+       .logo{
+        width:100%;
+        height:150px;
+        background-color: black;
+        z-index:1;
+        position: absolute;
+       }
+       .swift{
+         
+        width:400px;
+        height:300px;
+        margin-left:180px;
+       }
+       #newswift{
+        margin-top:-40px;
+
+       }
+       b{
+        margin-left:50px;
+        font-size:30px;
+        color: rgb(255, 123, 0);
+       }
+       
+       .about,.self,#taxi,.booking{
+         display: none;
+       }
+       
+       
+       .main{
+        margin-top: 150px;
+        width:100%;                                                                                                                                   ;
+        height:600px;
+       }
+      
+       
+       .design{
+        display:flex;
+        position:absolute;
+         width:60%;
+         height:60px;
+         margin-left:18%;
+         background:rgb(70, 70, 78);
+         z-index:1;
+        margin-top:150px;
+         border-bottom-left-radius:80px;
+         border-bottom-right-radius:80px;
+       }
+       .logo-img{
+        width:250px;
+        height:250px;
+        margin-top:-70px;
+       
+        float:left;
+       }
+       
+       
+        .img1{
+            width:200px;
+            height:200px;
+
+        }
+        .location{
+            width:250px;
+            height:200px;
+            margin-top:30px;
+           margin-left:30px;
+        }
+        p{
+            color:whitesmoke;
+           
+        }
+         .call{
+            width:150px;
+            height:200px;
+            margin-top:30px;
+            margin-left:30px;
+         }
+         button{
+            background:rgb(70, 70, 78);
+            border:none;
+            color:white;
+             margin-left:54px;
+             margin-top:4px;
+             font-size:18px;
+             font-family: serif;
+            
+         }
+         .name{
+            width:400px;
+            height:300px;
+            margin-left:50px;
+           margin-top:0px;
+            
+         }
+         #name{
+            font-size:40px;
+            font-family:serif;
+           
+         }
+         #down-name{
+            margin-top:-30px;;
+            margin-left:30px;;
+            font-size:25px;
+            font-family:Sans-serif;
+         }
+         button:hover{
+             color:red;
+         }
+         
+          .text{
+            width:300px;
+            height:200px;
+            color: gray;
+            font-size:18px;
+            font-family:serif;
+            margin-left:100px;;
+            background:rgb(197, 192, 192);
+            margin-top:20px;
+          }
+          label{
+            font-size: 25px;
+            font-family:sans-serif;
+            color: black;
+           
+          }
+             .text-area{
+                background:rgb(197, 192, 192);
+             }
+             .review{
+                width:100%;
+                height:120px;
+                background: #000;
+             }
+           
+             .feed{
+                width:200px;
+                height:150px;
+                font-size: 25px;
+                color: whitesmoke;
+                font-family:serif;
+                margin-left:120px;
+                margin-top:15px;
+             }
+              .num{
+                
+                 font-size:45px;
+                 color: whitesmoke;
+                 font-family: sans-serif;
+              }
+              #img-txt{
+                position:absolute;
+                margin-top:-450px;
+                margin-left:280px;
+                font-size:30px;
+                font-family: serif;
+                animation-name: slidein;
+                 animation-duration:3s;
+              }
+              .img-text{
+                 margin-left:170px;
+                 margin-top:20px;
+                 margin-bottom:20px;
+                 font-size: 40px;
+                 font-family:sans-serif;
+                
+              } 
+              .img-num{
+                margin-left:250px;
+                 font-size:30px;
+                 font-family: serif;
+                
+                 animation-duration:10s;
+                
+              }
+               @keyframes slidein{
+                   from{
+                    margin-top:-330px;
+                   
+                   }
+                 to{
+                  margin-top:-450px;
+                   
+                 }
+               }
+              .address{
+                 font-family: serif;
+                 margin-left:30px;
+                 
+              }
+              .contacts-main{
+                 font-family:serif;
+                 margin-left:40px;
+                 margin-top: -5px;
+                 
+              }
+             
+             
+              .about{
+               position:absolute;
+               width:100%;
+               height:800px;
+               
+               margin-top:150px;
+              }
+                .about-img{
+                  width:100%;
+                  height:500px;
+                }
+                 #page2-imgtxt{
+                  position: absolute;
+                   margin-top:-350px;
+                   font-size:100px;
+                   color:whitesmoke;
+                   margin-left:400px;
+                   z-index:1;
+                   animation-name:slide;
+                   animation-duration:4s;
+                 }
+                 @keyframes slide 
+                  {
+                     from{
+                      margin-top:-280px;
+                     }
+                       to{
+                          margin-top: -350px;
+                       }
+                  }
+                  
+                 
+                .cars-5{
+                  margin-left:150px;
+                }
+                .page2{
+                  width:500px;
+                  height:400px;
+                  margin-left:100px;;
+                  margin-top:130px;
+                }
+                .head{
+                   color:orange;
+                   font-size:28px;
+                   font-family:monospace;
+                   font-style: bold;
+                   margin-bottom:30px;
+                   margin-left:30px;;
+                } 
+                 .title{
+                   margin-left:40px;
+                    font-size:30px;
+                    font-family: sans-serif;
+                    color:#000;
+                 }
+                 .page2-txt{
+                   color:rgb(87, 79, 79);
+                   font-size:16px;
+                   font-family: serif;
+                   margin-left: 40px;
+                 }
+                 #p1{
+                   margin-left:150px;
+                  
+                 }
+                 .steps{
+                   width:100%;
+                   height:70px;
+                   margin-bottom:50px;
+                   
+                 }
+               .sec-txt{
+                  font-size: 40px;
+                  color:black;
+                  font-family:sans-serif;
+                  margin-left:450px;
+               }
+               .loc{
+                  width:300px;
+                  height:250px;
+               } 
+               .loc-2{
+                  width:150px;
+                  height:150px;
+                  margin-left:-10px;
+               }
+               .img-txt{
+                   color:rgb(71, 66, 66);
+                   font-size:20px;
+                   margin-left:20px;
+               }
+               .img-2{
+                   width:300px;
+                   height:300px;
+                   margin-left:130px;
+
+               }
+               .page2-last{
+                  width:100%;
+                  height:350px;
+                  background: #000;
+               }
+                .page2-logo{
+                       width:300px;
+                       height:300px;
+                       margin-top:-30px;
+                }
+                 .page2-last-txt{
+                   font-size:18px;
+                   font-family: serif;
+                   color:whitesmoke;
+                   margin-left:50px;
+                   margin-top:-30px;
+                 }
+                 .link{
+                   width:100px;
+                   height:100px;
+                 } 
+                 .link2{
+                   font-size:40px;
+                   font-family: serif;
+                   margin-top:80px;
+                   margin-left:60px;
+                   
+                 } 
+                 .touch{
+                   margin-left:120px;
+                   margin-top:-80px;;
+                   font-size: 18px;
+                   font-family:sans-serif;
+                 }
+               .self{ 
+                position: absolute;
+                
+               }
+               .page3-img{
+                 width:100%;
+                 height:400px;
+                 margin-top:150px;
+               }
+               #page3-img{
+                    
+                 width:300px;
+                 height:230px;
+               }
+               .page3-imgs{
+                  margin-top:20px;
+               }
+                .cars-self{
+                 width:850px;
+                 height:250px;
+                 margin-left:250px;
+                 margin-bottom: 20px;
+                 margin-top: 50px;
+                 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+               }
+                  #Maruthi{
+                    margin-top:40px;
+                    margin-left:40px;
+                  }
+               .rate{
+                 margin-top:10px;
+                 margin-left:60px;
+               }
+                
+              
+               .lables{
+                 font-size: 25px;
+                 margin-left: 30px;
+                 margin-top:40px;
+                 color:rgb(255, 94, 0);
+                 font:solid;
+                
+               }
+               table, td {
+                margin-top:30px;
+                 border:1px solid black;
+                 border-collapse: collapse;;
+                margin-left:30px;
+                
+               }
+               td{
+                 padding: 30px;
+                 padding-left: 30px;
+                 font-size: 16px;
+                 font-family: serif;
+               }
+               #page1-img{
+                 width:600px;
+                 height:500px;
+                 float: left;
+               }
+              
+               
+               .page4-img1{
+              
+                margin-top:60px;
+                margin-left:70px;
+                width:350px;
+                height:400px;
+                margin-bottom:80px;
+                z-index: 2;
+              
+               }
+             #page4-last{
+              width: 100%;
+               height:700px;
+              
+              margin-top:50px;
+              z-index:-1;
+            
+               
+             }
+             .page4-img{
+              width:100%;
+              margin-top:150px;
+
+             }
+             #logo7{
+              position: absolute;
+              margin-top: -60px;
+              z-index: 1;
+                }
+             #move-car
+             {
+            
+              width:250px;
+              height:120px;
+              margin-top:-270px;
+              
+              z-index: 1;
+              animation:move 8s linear infinite ;
+              
+             }
+             @keyframes move {
+              from{
+                 margin-left:80%;
+              }
+              to{
+                margin-left: 0%;
+              }
+              
+             }#num{
+               width:500px;
+               height:45px;
+               margin-top: 120px;
+               margin-left:700px;
+               background: #000;
+               position:absolute;
+               z-index: 1;
+             }
+             
+            
+             .page4-details{
+             position: absolute;
+              z-index: 1;
+              margin-top:250px;
+             }
+             .page4-details1{
+                margin-left: 100px;
+                z-index: 1;
+             }
+             .head4{
+               font-size: 25px;
+               font-family: sans-serif;
+               color: orange;
+             }
+            .branch{
+              font-size: 20px;
+              font-family: serif;
+              color:black;
+              
+            }
+            .locat{
+              font-size:18px;
+              color: blue;
+            }
+          .media{
+            margin-top:20px;
+             width:50px;
+             height:50px;
+          }
+          .img-media{
+             margin-left:80px;
+          }
+          .media-img{
+            margin-top:-40px;
+           
+             width:50px;
+             height:50px;
+          }
+          #num4{
+             font-size:40px;
+             color: whitesmoke;
+             margin-left:170px;
+             font-family: sans-serif;
+          }
+             .booking{
+               position: absolute;
+               margin-top: 150px;
+               width:100%;
+               margin-bottom:100px;
+               
+               
+             }
+         
+
+
+input {
+  width:600px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px ;
+  margin-left:30px;
+  margin-right:30px;
+  height:40px;
+  font-size:18px;
+  
+ 
+}
+
+input[type="submit"] {
+  background-color: rgb(255, 102, 0);
+  color: #fff;
+  cursor: pointer;
+  width:300px;
+  padding: auto ;
+  margin-left:30px;
+  margin-right:30px;
+  margin-left:150px;
+}
+ form{
+  margin-top: 50px;
+ }
+.valid{
+   width:50%;
+   max-height:80%;
+   z-index: 1;
+   margin-top:70px;
+  
+}
+#valid-img{
+  position:absolute;
+  margin-top:-450px;
+  opacity: 1;
+  z-index: -1;
+   
+}
+
+         
